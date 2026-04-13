@@ -1,68 +1,65 @@
 # Lightning Maintenance
 
-[![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/lightning-maintenance.svg)](https://wordpress.org/plugins/lightning-maintenance/)
-[![License](https://img.shields.io/badge/license-GPL--2.0%2B-blue.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
-
 **Blazing-fast, lightweight maintenance mode for WordPress.**  
 Proper 503 status, safe test mode, zero bloat, and under 40 KB zipped.
 
 Made with ❤️ by [DevMuseHQ](https://github.com/devmusehq)
 
+[![License](https://img.shields.io/badge/license-GPL--2.0%2B-blue.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
+
 ## Features
 
-- Extremely lightweight (< 40 KB)
+- Extremely lightweight (< 40 KB zipped)
 - Proper `503 Service Unavailable` status with `Retry-After` header
 - Safe **Test Mode** – only logged-in admins see the maintenance page
-- Simple customization: logo, headline, message, background & text colour
+- Custom logo, headline, message, background & text colour
 - Clean admin bar status indicator
-- Emergency exit URL: `?exit-maintenance=1`
-- No ads, no upsells, no bloat
-- Fully compatible with major caching plugins
+- Emergency exit URL (`?exit-maintenance=1`)
+- Zero ads, zero upsells, zero bloat
+- Works great with major caching plugins
 
 ## Installation
 
 ### From WordPress.org (Recommended)
-1. Search for **"Lightning Maintenance"** in your WordPress dashboard → Plugins → Add New
-2. Install and activate
+Search for **Lightning Maintenance** in your WordPress dashboard under Plugins → Add New.
 
-### Manual / Development Version
-1. Download the latest release from this repository
+### From GitHub (Development Version)
+1. Download the latest release or clone this repository
 2. Upload the `lightning-maintenance` folder to `/wp-content/plugins/`
-3. Activate the plugin through the Plugins menu
+3. Activate the plugin
 
 ## Usage
 
-1. Go to **Maintenance** in the WordPress admin menu
+1. Go to **Maintenance** in the WordPress admin sidebar
 2. Toggle **Maintenance Mode** on
-3. Use **Test Mode** to safely preview the page
-4. Customize logo, colours, headline and message
-5. Save — done!
+3. Use **Test Mode** to safely preview before going live
+4. Customise the logo, colours, headline and message
+5. Save settings
 
-**Locked out?** Visit `yoursite.com/?exit-maintenance=1` to instantly disable maintenance mode.
+**Locked out?** Simply visit `yoursite.com/?exit-maintenance=1` to disable maintenance mode instantly.
 
 ## Screenshots
 
-(Will be added once the plugin is live on WordPress.org)
+(Will be added once the plugin is approved on WordPress.org)
 
-## Development
+## Development & Contributing
 
-This repository is the development home for Lightning Maintenance.
+This is the official development repository for Lightning Maintenance.
 
 - Main development happens here on GitHub
-- Stable releases are synced to the [WordPress.org Plugin Directory](https://wordpress.org/plugins/lightning-maintenance/) (once approved)
+- Stable releases are pushed to the [WordPress.org Plugin Directory](https://wordpress.org/plugins/lightning-maintenance/) (once approved)
 
-### Contributing
+Contributions, bug reports, and feature requests are welcome!  
+See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
-Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+## Support
 
-### Support
-
-- For plugin support → Use the [WordPress.org support forum](https://wordpress.org/support/plugin/lightning-maintenance/) (once live)
-- Bug reports & feature requests → Open an [Issue](https://github.com/devmusehq/lightning-maintenance/issues)
+- Plugin support → [WordPress.org support forum](https://wordpress.org/support/plugin/lightning-maintenance/) (once live)
+- Bugs & ideas → Open an [Issue](https://github.com/devmusehq/lightning-maintenance/issues)
 
 ## License
 
-This plugin is licensed under the [GNU General Public License v2.0 or later](https://www.gnu.org/licenses/gpl-2.0.html).
+Licensed under the [GNU General Public License v2.0 or later](https://www.gnu.org/licenses/gpl-2.0.html).
 
 ---
 
