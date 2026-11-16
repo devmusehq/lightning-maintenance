@@ -3,9 +3,8 @@
  * Plugin Name:       Lightning Maintenance
  * Plugin URI:        https://devmuse.co/plugins/lightning-maintenance
  * Description:       Blazing-fast, lightweight maintenance mode for WordPress. Proper 503 status, reliable test mode, and zero bloat.
- * Version:           1.0.1
+ * Version:           1.0.2
  * Requires at least: 6.0
- * Tested up to:      7.0
  * Requires PHP:      7.4
  * Author:            DevMuse
  * Author URI:        https://devmuse.co
@@ -20,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 // Plugin constants
-define( 'LIGHTNING_MAINTENANCE_VERSION', '1.0.1' );
+define( 'LIGHTNING_MAINTENANCE_VERSION', '1.0.2' );
 define( 'LIGHTNING_MAINTENANCE_FILE', __FILE__ );
 define( 'LIGHTNING_MAINTENANCE_PATH', plugin_dir_path( __FILE__ ) );
 define( 'LIGHTNING_MAINTENANCE_URL', plugin_dir_url( __FILE__ ) );
