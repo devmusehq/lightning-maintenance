@@ -3,9 +3,9 @@ Contributors:      devmuse
 Donate link:       https://devmuse.co
 Tags:              maintenance, maintenance-mode, coming-soon, under-construction, 503
 Requires at least: 6.0
-Tested up to:      7.1.4
+Tested up to:      7.1
 Requires PHP:      7.4
-Stable tag:        1.0.2
+Stable tag:        1.0.3
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,9 @@ Sign in as an administrator and open **Maintenance**. Switch maintenance mode of
 3. Maintenance page (with logo and custom colours)
 
 == Changelog ==
+
+= 1.0.3 =
+* Corrected the Tested up to readme field to 7.1, as required by the WordPress.org upload validator. Runtime compatibility was checked on WordPress 7.1.4.
 
 = 1.0.2 =
 * Verified compatibility with WordPress 7.1.4.

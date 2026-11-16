@@ -4,7 +4,7 @@ A focused, free maintenance-mode plugin by [DevMuse](https://devmuse.co/plugins/
 
 ## Requirements
 
-WordPress 6.0 or later, PHP 7.4 or later. Version 1.0.2 is tested with WordPress 7.1.4.
+WordPress 6.0 or later, PHP 7.4 or later. Version 1.0.3 is tested with WordPress 7.1.4.
 
 ## Features
 
@@ -30,7 +30,7 @@ Clear or bypass full-page caches and CDNs when switching modes, then check an an
 
 The plugin stores settings locally and has no external API. An update retains settings. Deactivation and uninstall remove them. The site's theme or other plugins can still load their own assets on the maintenance screen.
 
-## Release 1.0.2
+## Release 1.0.3
 
 WordPress 7.1.4 compatibility check, readme-only Tested up to metadata, corrected emergency exit and cache guidance. Full release history is in [readme.txt](readme.txt).
 
